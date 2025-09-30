@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 
-/* Basic Styles */
+/* General Styles */
 
 body {
     font-family: 'Lato', sans-serif;
@@ -22,6 +22,15 @@ h2, h3, h4, h5, h6 {
 }
 
 /* Custom Styles */
+
+.green {
+    /* background-color: #cee0d1; */
+    background: linear-gradient(135deg, rgba(206, 224, 209, 0.2) 0%, rgba(206, 224, 209, 0.2) 15%, rgba(206, 224, 209, 0.8) 100%);
+}
+
+.rounded {
+    border-radius: 20px;
+}
 
 /* Navigation Bar */
 .navbar {
@@ -92,6 +101,7 @@ h2, h3, h4, h5, h6 {
     padding-left: 20px;
     text-align: left;
     line-height: 1.8rem;
+    background: linear-gradient(135deg, rgba(227, 209, 179, 0.2) 0%, rgba(227, 209, 179, 0.8) 100%);
 }
 
 #about ul li {
