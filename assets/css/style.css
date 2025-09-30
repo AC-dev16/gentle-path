@@ -3,6 +3,9 @@
 
 /* Basic Styles */
 
+:root {
+    font-size: 20px;
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -30,6 +33,7 @@ h2, h3, h4, h5, h6 {
     position: fixed;
     width: 100%;
     z-index: 1000;
+    font-size: 1rem;
 }
 
 .navbar-brand {
@@ -75,12 +79,16 @@ h2, h3, h4, h5, h6 {
 
 
 /* ABOUT Section */
+#about {
+    padding-top: 77px
+}
+
 .not-alone h3 {
     position: relative;
     top: -50%;
     text-align: center;
     z-index: 1;
-    color: #000;
+    color: #fff;
 }
 
 #about ul {
@@ -110,4 +118,78 @@ h2, h3, h4, h5, h6 {
 .card-bg-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/resources.jpg") no-repeat center center / cover;
     color: white;
+}
+
+/* Help and Support */
+.circular-container {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.helpline-circle {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.online-sessions-circle {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+}
+
+.circular-container h4 {
+    color: inherit;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.circular-container p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.circular-container .btn {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+}
+
+.circular-container .btn:hover {
+    background-color: white;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Responsive adjustments for circular containers */
+@media (max-width: 768px) {
+    .circular-container {
+        width: 250px;
+        height: 250px;
+        padding: 20px;
+    }
+    
+    .circular-container p {
+        font-size: 0.8rem;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+    }
 }

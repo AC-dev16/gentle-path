@@ -26,7 +26,7 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Learn</a>
@@ -89,9 +89,9 @@
                 <h2 class="display-5">Our Mission</h2>
                 <p>At The Gentle Path, we understand that living with chronic pain and autoimmune conditions can deeply impact mental health, often leading to feelings of isolation, anxiety, or depression. We are dedicated to providing compassionate support and resources to help you navigate these challenges. Our mission is to guide you on your healing journey, promoting wellness, mindfulness, and resilience through education, community, and personalized care.</p>
             </div>
-            <div class="not-alone col-12 col-md-6 text-center">
-                <img src="assets/images/mission.jpg" alt="Our Mission" class="img-fluid rounded">
-                <h3 class="display-4">You are not alone</h3>
+            <div class="not-alone col-12 col-md-6 d-flex flex-column justify-content-center align-items-center text-center h-100 position-relative">
+                <img src="assets/images/mission.jpg" alt="Our Mission" class="img-fluid rounded mb-3" style="position: relative; z-index: 1;">
+                <h3 class="display-4 position-absolute top-50 start-50 translate-middle" style="z-index: 2; width: 80%;">You are not alone</h3>
             </div>
             <div class="text-center my-4">
                 <h3 class="display-4 mb-4">What We Offer</h3>
@@ -140,10 +140,27 @@
             </div>
         </section>
         <!-- Help and Support -->
-        <section class="my-5">
-            <h2>Need Help?</h2>
-            <p>If you or someone you know is struggling with mental health challenges related to chronic pain or autoimmune conditions, please reach out. We are here to support you on your journey to wellness. Contact us today to learn more about our services and how we can assist you.</p>
-            <a href="#" class="btn btn-primary">Contact Us</a>
+        <section id="help-support" class="container my-5">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 pb-4">Need Help?</h2>
+                    <p>If you or someone you know is struggling with mental health challenges related to chronic pain or autoimmune conditions, please reach out. We are here to support you on your journey to wellness. Contact us today to learn more about our services and how we can assist you.</p>
+                </div>
+                <div class="col-12 col-lg-6 d-flex justify-content-center pb-4">
+                    <div class="circular-container helpline-circle">
+                        <h4>Helpline</h4>
+                        <p>Get immediate support and guidance from our trained professionals. We're here to listen and help you through difficult times with compassionate care.</p>
+                        <a href="contact.html" class="btn btn-lg">Call Now</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 d-flex justify-content-center pb-4">
+                    <div class="circular-container online-sessions-circle">
+                        <h4>Online Sessions</h4>
+                        <p>Schedule personalized therapy sessions with our licensed mental health professionals who specialize in chronic pain and autoimmune conditions.</p>
+                        <a href="contact.html" class="btn btn-lg">Book Session</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
