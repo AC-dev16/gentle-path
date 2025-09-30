@@ -12,12 +12,24 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-family: 'Forum', serif;
+    color: #fff;
+} 
+
+h2, h3, h4, h5, h6 {
     font-family: 'Forum', serif;
     color: #2c3e50;
 }
 
 /* Custom Styles */
+
+/* Hero Section */
+.hero {
+    background: url("../images/hero.png") no-repeat center center / cover;
+    color: white;
+    height: 100vh;
+}
 
 /* Carousel */
 .carousel-container {
