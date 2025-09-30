@@ -13,17 +13,142 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">The Gentle Path</a>
+            <!-- <button type="button" class="btn btn-danger ms-auto">Help</button> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Practise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- Hero Section -->
-    <header>
-
+    <header class="hero">
+        <div class="container text-center ">
+            <h1 class="display-4">Welcome to The Gentle Path</h1>
+            <p>Gentle support for your healing journey</p>
+        </div>
     </header>
     <!-- Main Content -->
-    <main>
+    <main class="container pt-4">
+        <!-- Affirmation Carousel -->
+        <div class="container">
+            <div id="affirmationCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+                            <h3 class="text-center">"I am stronger than my pain."</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+                            <h3 class="text-center">"I deserve to take care of myself."</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+                            <h3 class="text-center">"Every day is a new opportunity for healing."</h3>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#affirmationCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#affirmationCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- End Affirmation Carousel -->
+        <!-- About Section -->
+        <section class="my-5">
+            <h2>Our Mission</h2>
+            <p>At The Gentle Path, we understand that living with chronic pain and autoimmune conditions can deeply impact mental health, often leading to feelings of isolation, anxiety, or depression. We are dedicated to providing compassionate support and resources to help you navigate these challenges. Our mission is to guide you on your healing journey, promoting wellness, mindfulness, and resilience through education, community, and personalized care.</p>
+        </section>
+        <section class="my-5">
+            <h2>What We Offer</h2>
+            <ul>
+                <li><strong>Support Groups:</strong> Join our online and in-person support groups to connect with others who understand your journey.</li>
+                <li><strong>Education & Resources:</strong> Access articles, videos, helpful tools and workshops on understanding and managing mental health and chronic pain conditions.</li>
+                <li><strong>Therapy Services:</strong> Work with our licensed therapists who specialize in chronic pain and autoimmune-related mental health issues.</li>
+                <li><strong>Mindfulness Practices:</strong> Learn techniques such as meditation, yoga, and breathing exercises to enhance your well-being.</li>
+            </ul>
+        </section>
+        <!-- Where to start -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Where to Start</h2>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Learn</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Practise</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Resource</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Fundraising Section -->
+        <!-- <section class="my-5">
+            <h2>Get Involved</h2>
+            <p>Whether you're seeking support or looking to contribute to our community, there are many ways to get involved. Contact us to learn more about volunteering opportunities, upcoming events, or how you can help spread awareness about mental health and chronic conditions.</p>
+        </section> -->
 
     </main>
     <!-- Footer -->
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="bg-light text-center text-lg-start mt-4">
         <div class="text-center p-3">
             © 2024 The Gentle Path
         </div>
