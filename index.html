@@ -51,13 +51,13 @@
             <div id="hero-buttons" style="position: absolute; bottom: 20%; right: 30%; z-index: 2;">
                 <div class="d-flex flex-column gap-2 align-items-center">
                     <a href="#help-support" class="btn hero-btn mb-2">Need help?</a>
-                    <a href="#" class="btn hero-btn">Start Guided Meditation</a>
+                    <a href="https://www.youtube.com/watch?v=cyMxWXlX9sU" target="_blank" rel="noopener" class="btn hero-btn" aria-labelledby="Click to start guided meditation (opens in new tab)">Start Guided Meditation</a>
                 </div>
             </div>
         </div>
     </header>
     <!-- Main Content -->
-    <main class="container pt-4">
+    <main class="container-fluid pt-4">
         <!-- Affirmation Carousel -->
             <div id="affirmationCarousel" class="carousel slide my-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -188,7 +188,7 @@
                     <div class="circular-container helpline-circle">
                         <h4>Helpline</h4>
                         <p>Get support and guidance from our trained professionals. We're here to listen and help you through difficult times with compassionate care.</p>
-                        <a href="contact.html" class="btn custom-button btn-lg">Call Now</a>
+                        <a href="contact.html" class="btn custom-button btn-lg" data-bs-toggle="modal" data-bs-target="#helplineModal">Call Now</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 d-flex justify-content-center pb-4">
@@ -253,6 +253,63 @@
                                         <div class="col-12 mb-3">
                                             <label for="phone" class="form-label">Phone number</label>
                                             <input class="form-control" id="phone" name="phone" type="number" required>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mb-3">Confirm</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Help Modal -->
+     <div class="modal fade" id="helplineModal" tabindex="-1" aria-labelledby="helpline-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="helpline-modal-label">Book A Call Form</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="online-form" class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-8">
+                                <h2>Book A Call</h2>
+                                <p>Please fill out the form below with your details and preferred day and time and we will get back to you by text to confirm a booking. If you have any specific questions or topics you would like to discuss during the call, please include them in the message box.</p>
+                                <form action="success.html" method="GET">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <label for="full-name" class="form-label">Full Name</label>
+                                            <input class="form-control" id="full-name" name="full-name" type="text" required>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input class="form-control" id="email" name="email" type="email" required>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="phone" class="form-label">Phone number</label>
+                                            <input class="form-control" id="phone" name="phone" type="number" required>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <h3>Please select your preferred date and time for the call.</h3>
+                                            <label for="date" class="form-label">Preferred Date</label>
+                                            <input class="form-control" id="date" name="date" type="date" required>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="time" class="form-label">Preferred Time</label>
+                                            <select class="form-select" id="time" name="time" aria-label="Select preferred time of day" required>
+                                                <option value="" selected>Select ...</option>
+                                                <option value="morning">Morning 8am-12pm</option>
+                                                <option value="afternoon">Afternoon 12pm-5pm</option>
+                                                <option value="evening">Evening 5pm-9pm</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="message" class="form-label">Message</label>
+                                            <textarea class="form-control" rows="6" id="message" name="message" placeholder="Please enter your message here..."></textarea>
                                         </div>
                                     </div>
                                     <button type="submit" class="btn btn-primary mb-3">Confirm</button>
