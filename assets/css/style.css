@@ -342,9 +342,14 @@ footer {
 }
 
 /* Learn Page Cards */
-#learn .health-bg-1 {
-    background: url("../images/depression.jpg") no-repeat center center / cover;
-    color: white;
+
+#learn .card {
+    background: linear-gradient(-135deg, #cee0d1 0%, #718f75 70%, #718f75 100%);
+}
+
+#learn .card-title {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
 }
 
 .accordion-item {
@@ -396,7 +401,7 @@ footer {
 }
 
 /* Medium devices (tablets, 768px) */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .circular-container {
         width: 250px;
         height: 250px;
@@ -411,9 +416,18 @@ footer {
 
 }
 
+@media screen and (min-width: 768px) {
+    .health-cards .card-body{
+        min-height: 272px;
+    }
+    
+}
 
+/* Large devices (desktops, 992px) */
 @media screen and (min-width:992px) {
-    #help-btn {
-        display: none;
+    .health-cards .card-body{
+        min-height: 303px;
     }
 }
+
+/* Extra large devices (large desktops, 1200px) */
