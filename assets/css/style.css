@@ -336,16 +336,14 @@ footer {
 /* Media Queries */
 
 /* Small devices (phones, 320px) */
-@media screen and (max-width: 320px) {
-    .health-cards .card{
+@media screen and (min-width: 320px) {
+    .health-cards .card-body{
         min-height: 248px;
     }
 
 }
 
-
-
-/* Responsive adjustments for circular containers */
+/* Medium devices (tablets, 768px) */
 @media (max-width: 768px) {
     .circular-container {
         width: 250px;
@@ -359,7 +357,6 @@ footer {
         line-clamp: 3;
     }
 
-    
 }
 
 
