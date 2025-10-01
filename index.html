@@ -51,7 +51,7 @@
             <div id="hero-buttons" style="position: absolute; bottom: 20%; right: 10%; z-index: 2;">
                 <div class="d-flex flex-column gap-2 align-items-center">
                     <a href="#help-support" class="btn hero-btn mb-2">Need help?</a>
-                    <a href="https://www.youtube.com/watch?v=cyMxWXlX9sU" target="_blank" rel="noopener" class="btn hero-btn" aria-labelledby="Click to start guided meditation (opens in new tab)">Start Guided Meditation</a>
+                    <a href="https://www.youtube.com/watch?v=cyMxWXlX9sU" target="_blank" rel="noopener" class="btn hero-btn" aria-label="Click to start guided meditation (opens in new tab)">Start Guided Meditation</a>
                 </div>
             </div>
         </div>
@@ -164,7 +164,7 @@
             </div>
         </section>
         <!-- Affirmation Carousel -->
-            <div id="affirmationCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+            <div id="affirmationCarousel2" class="carousel slide my-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
@@ -246,47 +246,8 @@
 
     <!-- Modals -->
 
-    <!-- Online session modal -->
-    <div class="modal fade" id="onlineSessionModal" tabindex="-1" aria-labelledby="online-session-modal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="online-session-modal-label">Online Session Form</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div id="online-form" class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-8">
-                                <h2>Online Session Booking Form</h2>
-                                <p>Please fill out the form below and we will be in touch shortly with upcoming sessions and events.</p>
-                                <form action="success.html" method="GET">
-                                    <div class="row">
-                                        <div class="col-12 mb-3">
-                                            <label for="full-name" class="form-label">Full Name</label>
-                                            <input class="form-control" id="full-name" name="full-name" type="text" required>
-                                        </div>
-                                        <div class="col-12 mb-3">
-                                            <label for="email" class="form-label">Email</label>
-                                            <input class="form-control" id="email" name="email" type="email" required>
-                                        </div>
-                                        <div class="col-12 mb-3">
-                                            <label for="phone" class="form-label">Phone number</label>
-                                            <input class="form-control" id="phone" name="phone" type="number" required>
-                                        </div>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary mb-3">Confirm</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Help Modal -->
-     <div class="modal fade" id="helplineModal" tabindex="-1" aria-labelledby="helpline-modal" aria-hidden="true">
+     <div class="modal fade" id="helplineModal" tabindex="-1" aria-labelledby="helpline-modal-label" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
@@ -341,6 +302,46 @@
             </div>
         </div>
     </div>
+
+    <!-- Online session modal -->
+    <div class="modal fade" id="onlineSessionModal" tabindex="-1" aria-labelledby="online-session-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="online-session-modal-label">Online Session Form</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="online-form2" class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-8">
+                                <h2>Online Session Booking Form</h2>
+                                <p>Please fill out the form below and we will be in touch shortly with upcoming sessions and events.</p>
+                                <form action="success.html" method="GET">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <label for="full-name" class="form-label">Full Name</label>
+                                            <input class="form-control" id="full-name2" name="full-name" type="text" required>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input class="form-control" id="email2" name="email" type="email" required>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="phone" class="form-label">Phone number</label>
+                                            <input class="form-control" id="phone2" name="phone" type="number" required>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mb-3">Confirm</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/87e7ffe589.js" crossorigin="anonymous"></script>
