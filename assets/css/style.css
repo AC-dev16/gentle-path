@@ -42,6 +42,14 @@ h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
+hr {
+    border: none;
+    height: 2px;
+    background: #718f75;
+    margin: 20px auto;
+    width: 50%;
+}
+
 /* Custom Styles */
 
 .green {
