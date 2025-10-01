@@ -43,6 +43,12 @@ h2, h3, h4, h5, h6 {
     border-radius: 20px;
 }
 
+.custom-button {
+    background-color: #f2f1ec;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
 /* Navigation Bar */
 .navbar {
     background-color: #e3d1b3;
@@ -80,8 +86,10 @@ h2, h3, h4, h5, h6 {
 }
 
 .carousel-inner {
-    background-color: #e3d1b3;
+    background: linear-gradient(135deg, rgba(227, 209, 179, 0.2) 0%, rgba(227, 209, 179, 0.8) 100%);
+    /* background-color: #e3d1b3; */
     border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-item {
@@ -89,37 +97,48 @@ h2, h3, h4, h5, h6 {
     transition: transform 0.5s ease;
     padding: 0 10px;
     box-sizing: border-box;
-    /* background-color: #e3d1b3;
-    border-radius: 20px; */
 }
 
 
 
 /* ABOUT Section */
+
+/* Card styling for Our Mission section */
 #about {
     padding-top: 77px
 }
 
-.not-alone h3 {
-    position: relative;
-    top: -50%;
-    text-align: center;
-    z-index: 1;
-    color: #fff;
+#about .card {
+    border: none;
+    overflow: hidden; /* Ensures image doesn't overflow card boundaries */
+}
+
+#about .card-img-top {
+    width: 100%;
+    height: 250px; /* Set a consistent height */
+    object-fit: cover; /* Ensures image covers the area while maintaining aspect ratio */
+    object-position: center; /* Centers the image */
+}
+
+#about .card-body {
+    padding: 2rem;
+}
+
+/* Make sure the card takes full width in its container */
+#about .card.col-12.col-lg-6 {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #about ul {
     list-style-type: none;
-    padding-left: 20px;
     text-align: left;
     line-height: 1.8rem;
-    background: linear-gradient(135deg, rgba(227, 209, 179, 0.2) 0%, rgba(227, 209, 179, 0.8) 100%);
 }
 
-#about ul li {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-    padding-bottom: 10px;
+#about ul li i {
+    color: #718f75;
+    margin-right: 10px;
 }
 
 /* Cards */
@@ -134,7 +153,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .card-bg-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/resources.jpg") no-repeat center center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) 50%), url("../images/resources.jpg") no-repeat center center / cover;
     color: white;
 }
 
@@ -156,12 +175,12 @@ h2, h3, h4, h5, h6 {
 }
 
 .helpline-circle {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #cee0d1 0%, #718f75 70%, #718f75 100%);
     color: white;
 }
 
 .online-sessions-circle {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #cee0d1 0%, #718f75 70%, #718f75 100%);
     color: white;
 }
 
@@ -251,6 +270,18 @@ footer {
 #contact-form .form-control:focus {
     border-color: #667eea;
     box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+/* Success message */
+#success-message {
+    color: #2c3e50;
+    text-align: center;
+    margin: 20px;
+}
+
+#success {
+    padding-top: 65px;
+    margin: 50px auto;
 }
 
 /* Responsive adjustments for circular containers */
