@@ -184,12 +184,6 @@ hr {
     padding: 2rem;
 }
 
-/* Make sure the card takes full width in its container */
-#about .card.col-12.col-lg-6 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 #about ul {
     list-style-type: none;
     text-align: left;

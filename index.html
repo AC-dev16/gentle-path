@@ -89,24 +89,26 @@
         <!-- End Affirmation Carousel -->
 
         <!-- About Section -->
-        <section id="about" class="row my-4">
-            <div class="card green col-12 col-lg-6 mb-4">
-                <img src="assets/images/mission.jpg" class="card-img-top1" alt="...">
-                <div class="card-body text-center">
-                    <h2 class="card-title display-4 mb-4">Our Mission</h2>
-                    <p class="card-text">At The Gentle Path, we understand that living with chronic pain and autoimmune conditions can deeply impact mental health, often leading to feelings of isolation, anxiety, or depression. We are dedicated to providing compassionate support and resources to help you navigate these challenges. Our mission is to guide you on your healing journey, promoting wellness, mindfulness, and resilience through education, community, and personalized care.</p>
+        <section id="about" class="container my-4">
+            <div class="row justify-content-center">
+                <div class="card green col-12 col-lg-5 mb-4 ">
+                    <img src="assets/images/mission.jpg" class="card-img-top1" alt="Brown surface with small pieces of paper with messages on them">
+                    <div class="card-body text-center">
+                        <h2 class="card-title display-4 mb-4">Our Mission</h2>
+                        <p class="card-text">At The Gentle Path, we understand that living with chronic pain and autoimmune conditions can deeply impact mental health, often leading to feelings of isolation, anxiety, or depression. We are dedicated to providing compassionate support and resources to help you navigate these challenges. Our mission is to guide you on your healing journey, promoting wellness, mindfulness, and resilience through education, community, and personalized care.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card green col-12 col-lg-6">
-                <img src="assets/images/offer2.jpg" class="card-img-top2" alt="...">
-                <div class="card-body text-center">
-                    <h3 class="card-title display-4 mb-4">What We Offer</h3>
-                    <ul class="card-text">
-                        <li><i class="fa-solid fa-leaf"></i><strong>Education & Resources:</strong> Access articles, videos, helpful tools and workshops on understanding and managing mental health and chronic pain conditions.</li>
-                        <li><i class="fa-solid fa-balance-scale"></i><strong>Mindfulness Practices:</strong> Learn techniques such as meditation, yoga, and breathing exercises to enhance your well-being.</li>
-                        <li><i class="fa-solid fa-users"></i><strong>Support Groups:</strong> Join our online and in-person support groups to connect with others who understand your journey.</li>
-                        <li><i class="fa-solid fa-user-md"></i><strong>Therapy Services:</strong> Work with our licensed therapists who specialize in chronic pain and autoimmune-related mental health issues.</li>
-                    </ul>
+                <div class="card green col-12 col-lg-5">
+                    <img src="assets/images/offer2.jpg" class="card-img-top2" alt="Hands of five people coming together in a circle">
+                    <div class="card-body text-center">
+                        <h3 class="card-title display-4 mb-4">What We Offer</h3>
+                        <ul class="card-text">
+                            <li><i class="fa-solid fa-leaf"></i><strong>Education & Resources:</strong> Access articles, videos, helpful tools and workshops on understanding and managing mental health and chronic pain conditions.</li>
+                            <li><i class="fa-solid fa-balance-scale"></i><strong>Mindfulness Practices:</strong> Learn techniques such as meditation, yoga, and breathing exercises to enhance your well-being.</li>
+                            <li><i class="fa-solid fa-users"></i><strong>Support Groups:</strong> Join our online and in-person support groups to connect with others who understand your journey.</li>
+                            <li><i class="fa-solid fa-user-md"></i><strong>Therapy Services:</strong> Work with our licensed therapists who specialize in chronic pain and autoimmune-related mental health issues.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -193,7 +195,7 @@
                     <div class="circular-container online-sessions-circle">
                         <h4>Online Sessions</h4>
                         <p>Schedule online group therapy sessions with our licensed mental health professionals who specialize in chronic pain and autoimmune conditions.</p>
-                        <a href="contact.html" class="btn custom-button btn-lg">Book Session</a>
+                        <button type="button" class="btn custom-button btn-lg" data-bs-toggle="modal" data-bs-target="#onlineSessionModal">Book Session</button>
                     </div>
                 </div>
             </div>
@@ -220,6 +222,48 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- Modals -->
+
+    <!-- Online session modal -->
+    <div class="modal fade" id="onlineSessionModal" tabindex="-1" aria-labelledby="online-session-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="online-session-modal-label">Online Session Form</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="online-form" class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-8">
+                                <h2>Online Session Booking Form</h2>
+                                <p>Please fill out the form below and we will be in touch shortly with upcoming sessions and events.</p>
+                                <form action="success.html" method="GET">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <label for="full-name" class="form-label">Full Name</label>
+                                            <input class="form-control" id="full-name" name="full-name" type="text" required>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input class="form-control" id="email" name="email" type="email" required>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="phone" class="form-label">Phone number</label>
+                                            <input class="form-control" id="phone" name="phone" type="number" required>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mb-3">Confirm</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/87e7ffe589.js" crossorigin="anonymous"></script>
