@@ -341,6 +341,50 @@ footer {
     margin: 50px auto;
 }
 
+/* Learn Page Cards */
+#learn .health-bg-1 {
+    background: url("../images/depression.jpg") no-repeat center center / cover;
+    color: white;
+}
+
+.accordion-item {
+    background-color: transparent !important;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: none;
+}
+
+.accordion-header {
+    background-color: transparent !important;
+    color: white;
+    border: none;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    color: white;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: white;
+    box-shadow: none;
+}
+
+.accordion-body {
+    background-color: transparent !important;
+    color: white;
+    border: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+
+
 /* Media Queries */
 
 /* Small devices (phones, 320px) */
