@@ -32,6 +32,16 @@ h2, h3, h4, h5, h6 {
     color: #2c3e50;
 }
 
+.section {
+    margin-top: 100px;
+}
+
+#header h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 /* Custom Styles */
 
 .green {
@@ -276,15 +286,6 @@ footer {
 }
 
 /* Form styling */
-#header {
-    padding-top: 77px;
-}
-
-#header h1 {
-    color: #2c3e50;
-    text-align: center;
-    margin-bottom: 20px;
-}
 
 #contact-form {
     padding: 40px 0;
@@ -332,6 +333,18 @@ footer {
     margin: 50px auto;
 }
 
+/* Media Queries */
+
+/* Small devices (phones, 320px) */
+@media screen and (max-width: 320px) {
+    .health-cards .card{
+        min-height: 248px;
+    }
+
+}
+
+
+
 /* Responsive adjustments for circular containers */
 @media (max-width: 768px) {
     .circular-container {
@@ -345,6 +358,8 @@ footer {
         -webkit-line-clamp: 3;
         line-clamp: 3;
     }
+
+    
 }
 
 
