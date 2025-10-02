@@ -151,6 +151,8 @@ Low performance score due to images.
 #### Content
 
 - Most of the main text content was generated using AI Copilot
-
+- Icons in the footer and about section were from Font Awesome.
 
 #### Media
+
+- The images used on the Home page cards are from [Pexels](https://www.pexels.com)
