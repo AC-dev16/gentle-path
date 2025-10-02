@@ -75,8 +75,82 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 ![Footer](assets/images/readme/footer.png)
 
 
-## Features Left to Implement
+### Features Left to Implement
 
 - **Practise Page** The Practice page would offer users a calming, supportive space to explore holistic techniques—like meditation, breathwork, yoga, gentle movement, and nutrition advice—alongside practical coping strategies and tools that nurture both body and mind on the journey through chronic pain and emotional healing.
 
 - **Resources Page** The Resources page would serve as a curated hub for deeper exploration, offering trusted links, insightful articles, and expert-backed content to empower users with knowledge and practical guidance.
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- Go to the Settings tab of your GitHub repo.
+- On the left-hand sidebar, in the Code and automation section, select Pages.
+- Make sure the source is set to 'Deploy from Branch'.
+- Make sure the main branch is selected.
+- Make sure the folder is set to / (root).
+- Under Branch, click Save.
+- Go back to the Code tab and wait a few minutes before refreshing.
+- On the right-hand side in the Deployments section click on 'github-pages'.
+- The latest deployed link will appear at the top of the page.
+
+## Testing
+
+### Validation
+
+#### CSS
+
+No errors found. 1 warning from imported style sheet which are outside of the scope of the project.
+
+![CSS](assets/images/readme/css-validator.png)
+
+#### HTML
+
+**Landing Page**
+No errors found on second validation.
+The first check of my HTML raised a few errors regarding header semantics which I quickly corrected.
+
+**Learn Page**
+No errors found on second validation.
+On my first attempt there were 62 errors. These were all linked to duplicate ID's on the card accordions which is why they weren't working as expected. ID's were changed and everything works correctly.
+
+![HTML Landing Page](assets/images/readme/html-validator.png)
+
+
+### Lighthouse
+
+A Lighthouse audit was conducted using the tool on Chrome Devtools of each web page.
+
+**Home Page**
+Low performance score due to images.
+
+![HTML Lighthouse](assets/images/readme/lighthouse-home.png)
+
+**Learn Page**
+
+![HTML Learn Page](assets/images/readme/lighthouse-learn.png)
+
+**Contact Page** 
+
+![HTML Contact Page](assets/images/readme/lighthouse-contact.png)
+
+**Sucess Page**
+
+![HTML Success Page](assets/images/readme/lighthouse-success.png)
+
+
+### Credits
+
+#### Code 
+
+- Bootstrap was used for most of the layout.
+- Copilot used to help style "Helpline" and "Online Session" circular containers and altered manually to match the style of the website.
+- AI was used to assist with debugging.
+
+#### Content
+
+- Most of the main text content was generated using AI Copilot
+
+
+#### Media
