@@ -12,26 +12,42 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 ## Features
 
-#### Navigation
+### Navigation
 
 - The navbar is a Bootstrap component that allows for easy navigation and responsive design. It is used across all pages with a simple, neutral coloured design with links to the Logo, Home, Learn and Contact. Links to Practise and Resources are not yet available.
 
-- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+- The navbar will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Active links become bold when navigating through pages so the user know which area they are currently using.
 
 ![Navigation](assets/images/readme/navbar.png)
 
-#### Hero section
+### Hero section
 
-#### Bootstrap carousel
+- **Visual Theme:** The AI generated hero image evokes serenity and resilience through soft, natural tones and symbolic elements like a winding path, gentle light, and tranquil landscapes—reflecting the emotional journey of chronic pain and healing.
 
-affirmations 
+- **Purpose and Impact:** Designed to immediately convey comfort and hope, the image sets the emotional tone for the site, inviting users into a safe, supportive space where wellness and mental health are prioritized.
 
-#### About section
+- **Brand Alignment:** The composition aligns with The Gentle Path’s core values—empathy, empowerment, and transformation—serving as a visual anchor for the site's identity and reinforcing its mission to uplift and connect.
+
+- **Text:** The text welcomes users to the site and has a brief sentence to explain the sites purpose.
+
+- **Buttons:** Two button are placed in the lower righthand corner. The "Need Help?" button allows a user to be directed straight to the Help and Support section. The "Start Guided Meditation" button gives the user the opportunity to try a meditation session through a link to a YouTube video by 'Lavendaire'.
+
+![Hero/ Landing page](assets/images/readme/hero-lg.png)
+
+### Bootstrap carousel
+
+- **Dynamic Affirmation Display:** The Bootstrap carousel cycles through uplifting affirmations, creating a gentle rhythm of encouragement that reinforces the site's themes of resilience, hope, and emotional support.
+
+- **Responsive and Accessible:** Optimized for all screen sizes, the carousel ensures affirmations remain visually engaging and easy to read, offering users a calming, interactive experience across devices.
+
+![Carousel](assets/images/readme/affirmations.png)
+
+### About section
 
 our mission and what we offer
 
-#### Bootstrap cards
+### Bootstrap cards
 
 **Where To Start**
 
-#### 
+###
