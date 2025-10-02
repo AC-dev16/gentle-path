@@ -399,6 +399,18 @@ footer {
     box-shadow: none;
 }
 
+#learn .accordion-body {
+    text-align: left;
+}
+
+#learn .accordion-body ul {
+    text-align: left;
+}
+
+#learn .accordion-body li {
+    text-align: left;
+    padding: 2px;
+}
 /* Media Queries */
 
 /* Small devices (phones, 320px) */
