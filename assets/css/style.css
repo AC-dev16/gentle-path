@@ -117,6 +117,7 @@ hr {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     color: #fff;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .hero-btn:hover {
@@ -124,6 +125,7 @@ hr {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     color: #000;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 /* Affirmation Carousel */
