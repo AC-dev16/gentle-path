@@ -12,20 +12,26 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 ## Features
 
-### Navigation
+#### Navigation
 
-### Hero section
+- The navbar is a Bootstrap component that allows for easy navigation and responsive design. It is used across all pages with a simple, neutral coloured design with links to the Logo, Home, Learn and Contact. Links to Practise and Resources are not yet available.
 
-### Bootstrap carousel
+- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+
+![Navigation](assets/images/readme/navbar.png)
+
+#### Hero section
+
+#### Bootstrap carousel
 
 affirmations 
 
-### About section
+#### About section
 
 our mission and what we offer
 
-### Bootstrap cards
+#### Bootstrap cards
 
 **Where To Start**
 
-### 
+#### 
