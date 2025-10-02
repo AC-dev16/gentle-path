@@ -195,9 +195,9 @@ On my first attempt there were 62 errors. These were all linked to duplicate ID'
 A Lighthouse audit was conducted using the tool on Chrome Devtools of each web page.
 
 **Home Page**
-Low performance score due to images.
+I initially had a performance score of 77 due to the size of the images. I scaled down the size on all .jpg images and improved my score to 79. It was my hero image that was causing the poor performance so I used [Photopea](https://www.photopea.com) to change my AI generated .png image into .webp and ran the lighthouse again and its increased to 98.
 
-![HTML Lighthouse](assets/images/readme/lighthouse-home.png)
+![HTML Lighthouse](assets/images/readme/lighthouse-home2.png)
 
 <p align="right"><a href="#the-gentle-path">Back To Top</a></p>
 <hr>
