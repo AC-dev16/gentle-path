@@ -20,6 +20,8 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 ![Navigation](assets/images/readme/navbar.png)
 
+<hr>
+
 ### Hero section
 
 - **Visual Theme:** The AI generated hero image evokes serenity and resilience through soft, natural tones and symbolic elements like a winding path, gentle light, and tranquil landscapes—reflecting the emotional journey of chronic pain and healing.
@@ -34,6 +36,8 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 ![Hero/ Landing page](assets/images/readme/hero-lg.png)
 
+<hr>
+
 ### Bootstrap carousel
 
 - **Dynamic Affirmation Display:** The Bootstrap carousel cycles through uplifting affirmations, creating a gentle rhythm of encouragement that reinforces the site's themes of resilience, hope, and emotional support.
@@ -41,6 +45,8 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 - **Responsive and Accessible:** Optimized for all screen sizes, the carousel ensures affirmations remain visually engaging and easy to read, offering users a calming, interactive experience across devices.
 
 ![Carousel](assets/images/readme/affirmations.png)
+
+<hr>
 
 ### About section
 
@@ -50,11 +56,15 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 ![About](assets/images/readme/about.png)
 
+<hr>
+
 ### Where To Start section
 
 - **User-Centered Clarity:** Dealing with chronic pain can be a difficult and confusing time with many people not knowing where to begin to get thier life back on track. Each card in this section highlights a specific stage in order for users to begin understand and cope with their mental health issues and struggles through chronic pain. It helps users quickly understand how The Gentle Path can assist them on their healing journey.
 
 ![Cards](assets/images/readme/where-to-start.png)
+
+<hr>
 
 ### Help & Support
 
@@ -66,6 +76,8 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 ![Help & Support](assets/images/readme/help.png)
 
+<hr>
+
 ### Footer
 
 - **Visual Consistency:** Matching the footer color to the navbar creates a cohesive, polished look across the site, reinforcing brand identity and promoting a calm, unified aesthetic.
@@ -74,12 +86,15 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 ![Footer](assets/images/readme/footer.png)
 
+<hr>
 
 ### Features Left to Implement
 
 - **Practise Page** The Practice page would offer users a calming, supportive space to explore holistic techniques—like meditation, breathwork, yoga, gentle movement, and nutrition advice—alongside practical coping strategies and tools that nurture both body and mind on the journey through chronic pain and emotional healing.
 
 - **Resources Page** The Resources page would serve as a curated hub for deeper exploration, offering trusted links, insightful articles, and expert-backed content to empower users with knowledge and practical guidance.
+
+<p align="right"><a href="#the-gentle-path">Back To Top</a></p>
 
 ## Deployment
 
@@ -95,6 +110,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - On the right-hand side in the Deployments section click on 'github-pages'.
 - The latest deployed link will appear at the top of the page.
 
+<p align="right"><a href="#the-gentle-path">Back To Top</a></p>
+
 ## Testing
 
 ### Validation
@@ -104,6 +121,9 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 No errors found. 1 warning from imported style sheet which are outside of the scope of the project.
 
 ![CSS](assets/images/readme/css-validator.png)
+
+<p align="right"><a href="#the-gentle-path">Back To Top</a></p>
+<hr>
 
 #### HTML
 
@@ -117,6 +137,8 @@ On my first attempt there were 62 errors. These were all linked to duplicate ID'
 
 ![HTML Landing Page](assets/images/readme/html-validator.png)
 
+<p align="right"><a href="#the-gentle-path">Back To Top</a></p>
+<hr>
 
 ### Lighthouse
 
@@ -127,32 +149,46 @@ Low performance score due to images.
 
 ![HTML Lighthouse](assets/images/readme/lighthouse-home.png)
 
+<p align="right"><a href="#the-gentle-path">Back To Top</a></p>
+<hr>
+
 **Learn Page**
 
 ![HTML Learn Page](assets/images/readme/lighthouse-learn.png)
+
+<p align="right"><a href="#the-gentle-path">Back To Top</a></p>
+<hr>
 
 **Contact Page** 
 
 ![HTML Contact Page](assets/images/readme/lighthouse-contact.png)
 
+<p align="right"><a href="#the-gentle-path">Back To Top</a></p>
+<hr>
+
 **Sucess Page**
 
 ![HTML Success Page](assets/images/readme/lighthouse-success.png)
 
+<p align="right"><a href="#the-gentle-path">Back To Top</a></p>
 
-### Credits
+## Credits
 
-#### Code 
+### Code 
 
 - Bootstrap was used for most of the layout.
 - Copilot used to help style "Helpline" and "Online Session" circular containers and altered manually to match the style of the website.
 - AI was used to assist with debugging.
 
-#### Content
+### Content
 
 - Most of the main text content was generated using AI Copilot
 - Icons in the footer and about section were from Font Awesome.
 
-#### Media
+### Media
 
 - The images used on the Home page cards are from [Pexels](https://www.pexels.com)
+- Hero image was generated using Copilot
+- Favicon created at [favicon.io](https://www.favicon.io)
+
+<p align="right"><a href="#the-gentle-path">Back To Top</a></p>
