@@ -1,10 +1,41 @@
 # The Gentle Path
 
+![The Gentle Path - Project Banner](assets/images/readme/banner.png)
+
 ## Introduction 
 
 The Gentle Path is my first assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp, consisting of learning outcomes to utilise HTML5, CSS3 & Bootstrap in order to fulfil the necessary requirements for the brief provided about Mental Health. 
 
 <a href="https://ac-dev16.github.io/gentle-path/" target="_blank">View the live project here.</a>
+
+<h2 align="center" id="TOC">Table of Contents</h2>
+
+* [The Gentle Path](#the-gentle-path)
+  - [Introduction](#introduction)
+  - [Table of Contents](#TOC)
+  - [Project Outline](#project-outline)
+* [Features](#features)
+  - [General Features](#general-features)
+    - [Navigation](#navigation)
+    - [Hero section](#hero-section)
+    - [Bootstrap Carousel](#bootstrap-carousel)
+    - [About Section](#about-section)
+    - [Where To Start](#where-to-start)
+    - [Help and Support](#help-and-support)
+    - [Footer](#footer)
+  - [Features Left To Implement](#features-left-to-implement)
+* [Built With](#built-with)
+  - [Technology and Languages](#technologies-and-languages)
+  - [Libraries and Frameworks](#libraries-and-frameworks)
+  - [Tools & Programs](#tools-and-programs)
+* [Deployment](#deployment)
+* [Testing](#testing)
+    - [Validation](#validation)
+    - [Lighthouse](#lighthouse)
+* [Credits](#credits)
+  - [Code](#code)
+  - [Content](#content)
+  - [Media](#media)
 
 ## Project Outline
 
@@ -58,7 +89,7 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 <hr>
 
-### Where To Start section
+### Where To Start
 
 - **User-Centered Clarity:** Dealing with chronic pain can be a difficult and confusing time with many people not knowing where to begin to get thier life back on track. Each card in this section highlights a specific stage in order for users to begin understand and cope with their mental health issues and struggles through chronic pain. It helps users quickly understand how The Gentle Path can assist them on their healing journey.
 
@@ -66,7 +97,7 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 <hr>
 
-### Help & Support
+### Help and Support
 
 - **Access to Support:** The section provides clear, actionable options “Helpline” and “Book Online Session”, allowing users to quickly connect with emotional and wellness support tailored to chronic pain and mental health needs.
 
@@ -95,6 +126,25 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 - **Resources Page** The Resources page would serve as a curated hub for deeper exploration, offering trusted links, insightful articles, and expert-backed content to empower users with knowledge and practical guidance.
 
 <p align="right"><a href="#the-gentle-path">Back To Top</a></p>
+
+## Built With
+
+### Technologies and Languages
+
+- HTML5
+- CSS3
+- GitHub
+
+### Libraries and Frameworks
+
+- Bootstrap v5.3.8
+- Font Awesome
+- Google Fonts
+
+### Tools and Programs
+
+- MS CoPilot
+- VSCode CoPilot
 
 ## Deployment
 
