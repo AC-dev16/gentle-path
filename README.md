@@ -119,6 +119,24 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 <hr>
 
+### Contact
+
+- **Contact Form Integration:** A responsive contact form allows visitors to reach out with questions, feedback, or support requests. It’s styled consistently with The Gentle Path’s serene visual identity, using the same calming colour palette and layout structure as the rest of the site.
+
+![Contact](assets/images/readme/contact.png)
+
+<hr> 
+
+### Learn Page
+
+- **Supportive Mental Health Education:** The Learn page gently guides users living with chronic pain, toward understanding the connection between physical and emotional wellbeing. It offers clear, compassionate information on mental health, therapy options, and coping strategies to help users take the first step in managing their inner world.
+
+- **Consistent, Calming Design:** Styled in harmony with the site’s tranquil aesthetic, the Learn page maintains the same soft colour palette, typography, and layout as other sections—creating a peaceful, cohesive experience that encourages exploration without overwhelm.
+
+![Learn](assets/images/readme/learn.png)
+
+<hr>
+
 ### Features Left to Implement
 
 - **Practise Page** The Practice page would offer users a calming, supportive space to explore holistic techniques—like meditation, breathwork, yoga, gentle movement, and nutrition advice—alongside practical coping strategies and tools that nurture both body and mind on the journey through chronic pain and emotional healing.
@@ -238,7 +256,7 @@ I initially had a performance score of 77 due to the size of the images. I scale
 ### Media
 
 - The images used on the Home page cards are from [Pexels](https://www.pexels.com)
-- Hero image was generated using Copilot
+- Hero image was generated using Copilot and changed to .webp using [Photopea](https://www.photopea.com)
 - Favicon created at [favicon.io](https://www.favicon.io)
 
 <p align="right"><a href="#the-gentle-path">Back To Top</a></p>
