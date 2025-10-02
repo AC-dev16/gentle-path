@@ -397,11 +397,6 @@ footer {
     box-shadow: none;
 }
 
-/* .card .accordion {
-    margin-bottom: 15px;
-} */
-
-
 /* Media Queries */
 
 /* Small devices (phones, 320px) */
@@ -422,13 +417,12 @@ footer {
 
 @media screen and (min-width: 768px) {
     .health-cards .card-body{
-        min-height: 272px;
+        min-height: 297px;
     }
 
     #hero-buttons {
     right: 10%;  
     }
-    
 }
 
 
