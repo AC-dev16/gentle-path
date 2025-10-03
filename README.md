@@ -146,6 +146,17 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 <p align="right"><a href="#the-gentle-path">Back To Top</a></p>
 
+
+## Wireframe
+
+- The project's wireframes serve as the skeletal blueprint, illustrating the foundational structure, layout, and functionality of the application before visual design elements were applied. They were developed to map out the user flow and hierarchy of information, ensuring a logical and intuitive user experience.
+
+- There were minor alterations during the building process to improve the flow of the document and user experience.
+
+![Wireframe](assets/images/readme/the-gentle-path-wireframe.png)
+
+<p align="right"><a href="#the-gentle-path">Back To Top</a></p>
+
 ## Built With
 
 ### Technologies and Languages
