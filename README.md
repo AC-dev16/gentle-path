@@ -149,11 +149,17 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 ## Wireframe
 
+**Home Page**
+
 - The project's wireframes serve as the skeletal blueprint, illustrating the foundational structure, layout, and functionality of the application before visual design elements were applied. They were developed to map out the user flow and hierarchy of information, ensuring a logical and intuitive user experience.
 
 - There were minor alterations during the building process to improve the flow of the document and user experience.
 
-![Wireframe](assets/images/readme/the-gentle-path-wireframe.png)
+![Wireframe-Home](assets/images/readme/the-gentle-path-wireframe.png)
+
+**Learn Page**
+
+![Wireframe-Learn](assets/images/readme/wireframe-learn.png)
 
 <p align="right"><a href="#the-gentle-path">Back To Top</a></p>
 
@@ -175,6 +181,7 @@ The Gentle Path is a sanctuary for individuals living with chronic pain, offerin
 
 - MS CoPilot
 - VSCode CoPilot
+- Balsamiq Wireframes
 
 ## Deployment
 
